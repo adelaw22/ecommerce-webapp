@@ -18,7 +18,6 @@ const ProductCard: React.FC<ProductCardProps> = ({ productItem}) => {
                     {productItem.rating ? `Rating: ${productItem.rating}` : 'No rating available'}
                 </div>
             </div>
-
             <p>{productItem.description}</p>
             
             <div className='flex justify-between my-3'>
